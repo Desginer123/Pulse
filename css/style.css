@@ -1256,6 +1256,12 @@ template {
 }
 
 @media screen and (max-width: 768px) {
+    .promo {
+        padding: 21px 15px 93px;
+    }
+    .slick-dots {
+        opacity: 0;
+    }
     .promo__header, .promo__subheader, .button_main {
         display: block;
         margin: 0 auto;
@@ -1269,10 +1275,19 @@ template {
         margin: 0 auto;
         margin-top: 18px;
     }
-    .advantages__wrapper {
+    .advantages__wrapper, .catalog, .feed {
         padding: 0 15px;
+    }
+    .feed {
+        padding-bottom: 71px;
     }
     .title_left, .consultation__descr {
         text-align: center;
+    }
+    #consultation-form {
+        margin: 36px auto
+    }
+    .carousel__inner {
+        width: 80%;
     }
 }
