@@ -1255,4 +1255,24 @@ template {
     display: none;
 }
 
-@media 
+@media screen and (max-width: 768px) {
+    .promo__header, .promo__subheader, .button_main {
+        display: block;
+        margin: 0 auto;
+        margin-top: 67px
+    }
+    .promo__icons {
+        align-self: center;
+    }
+    .promo__link {
+        display: block;
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+    .advantages__wrapper {
+        padding: 0 15px;
+    }
+    .title_left, .consultation__descr {
+        text-align: center;
+    }
+}
